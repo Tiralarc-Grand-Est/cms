@@ -1,0 +1,30 @@
+{
+  "name": "cms",
+  "private": true,
+  "version": "0.1.0",
+  "description": "CMS du CRTA Grand Est",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.0.0",
+    "@strapi/plugin-users-permissions": "4.0.0",
+    "@strapi/provider-email-nodemailer": "^4.0.0",
+    "@strapi/strapi": "4.0.0",
+    "pg": "^8.7.1"
+  },
+  "author": {
+    "name": "Julien Blatecky"
+  },
+  "strapi": {
+    "uuid": "02cdffea-a957-4e30-9b7d-d853238b0368"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
