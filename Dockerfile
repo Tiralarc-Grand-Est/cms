@@ -12,6 +12,7 @@ COPY package.json yarn.lock ./
 
 RUN yarn install --production --frozen-lockfile
 
+COPY favicon.ico ./favicon.ico
 COPY public ./public
 COPY database ./database
 COPY config ./config
