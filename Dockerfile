@@ -4,6 +4,8 @@ RUN apk add --no-cache build-base gcc autoconf automake zlib-dev libpng-dev nasm
 
 EXPOSE 1337
 
+ENV NODE_ENV production
+
 RUN mkdir /srv/app
 
 WORKDIR /srv/app
