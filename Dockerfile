@@ -15,5 +15,7 @@ RUN yarn install --production --frozen-lockfile
 COPY public ./public
 COPY database ./database
 COPY config ./config
+COPY build ./build
+COPY src ./src
 
 CMD ["npm", "start"]
