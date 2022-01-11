@@ -1647,12 +1647,12 @@
     "@strapi/utils" "4.0.2"
     lodash "4.17.21"
 
-"@strapi/plugin-i18n@4.0.2":
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/@strapi/plugin-i18n/-/plugin-i18n-4.0.2.tgz#1ca26773cab307773e0cfaff26e7e9f05ee81f45"
-  integrity sha512-QzUnLAH1qrwp27FR8J9Rf7ar/n92QsSyZvMpPqdFDWNZei2A7O27Jz8szX6Jc0fzRE7r+yDaKwmYO3yXTHAmcw==
+"@strapi/plugin-i18n@4.0.4":
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/@strapi/plugin-i18n/-/plugin-i18n-4.0.4.tgz#348bec7144a4d9e4a623f4797b16684f4e2936e9"
+  integrity sha512-a4YNAy1FjZNdd26GbtDl/H4ceKRx/GbPe/ThUX3ey68RF35F+kgP3bXYKQKYxH2nzYU8p+IRwVqwU0nahLhyyw==
   dependencies:
-    "@strapi/utils" "4.0.2"
+    "@strapi/utils" "4.0.4"
     lodash "4.17.21"
 
 "@strapi/plugin-upload@4.0.2":
@@ -1785,6 +1785,17 @@
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/@strapi/utils/-/utils-4.0.2.tgz#4df4e3bc62da098d67176ec7d263e83ae0984ccf"
   integrity sha512-se19lmemhoq3GLsPqhlU2FvoK+1tYRW+XS8WnSVnRmecHmzMyE4ScZi6gge0/m4MslTw9zhproJOOsCe34FIRw==
+  dependencies:
+    "@sindresorhus/slugify" "1.1.0"
+    date-fns "2.24.0"
+    http-errors "1.8.0"
+    lodash "4.17.21"
+    yup "0.32.9"
+
+"@strapi/utils@4.0.4":
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/@strapi/utils/-/utils-4.0.4.tgz#bfb505319d9615b7e47a98d80bdaa09f02b89802"
+  integrity sha512-BZoOv1RexOOgsUoDVrGVM88AKuJvHItl9HguR3MDS2Rpsiiw0dCIggb2xSnXzg6qLnPYpDGi8SWh5QeSet0SSA==
   dependencies:
     "@sindresorhus/slugify" "1.1.0"
     date-fns "2.24.0"
