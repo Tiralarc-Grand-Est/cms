@@ -21,7 +21,7 @@
       "required": true,
       "unique": true,
       "maxLength": 2,
-      "minLength": 2
+      "minLength": 1
     },
     "standard": {
       "type": "boolean",
