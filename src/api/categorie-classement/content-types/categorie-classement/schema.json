@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categories_classement",
+  "info": {
+    "singularName": "categorie-classement",
+    "pluralName": "categories-classement",
+    "displayName": "CategorieClassement",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nom": {
+      "type": "string",
+      "required": true
+    },
+    "identifiant": {
+      "type": "string",
+      "required": true,
+      "unique": true,
+      "maxLength": 2,
+      "minLength": 2
+    },
+    "standard": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    }
+  }
+}

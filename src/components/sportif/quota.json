@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_sportif_quotas",
+  "info": {
+    "displayName": "Quota",
+    "icon": "table",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "arme": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::arme.arme"
+    },
+    "categorie": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::categorie-classement.categorie-classement"
+    },
+    "maximum": {
+      "type": "integer",
+      "required": true,
+      "min": 0
+    },
+    "inscrits": {
+      "type": "integer",
+      "default": 0,
+      "required": true,
+      "min": 0
+    }
+  }
+}

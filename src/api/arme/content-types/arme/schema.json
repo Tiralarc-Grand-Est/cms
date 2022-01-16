@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "armes",
+  "info": {
+    "singularName": "arme",
+    "pluralName": "armes",
+    "displayName": "Arme",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nom": {
+      "type": "string",
+      "required": true
+    },
+    "identifiant": {
+      "type": "string",
+      "required": true,
+      "unique": true,
+      "maxLength": 2,
+      "minLength": 2
+    },
+    "standard": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    }
+  }
+}

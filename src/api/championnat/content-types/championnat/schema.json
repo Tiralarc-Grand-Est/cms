@@ -1,0 +1,60 @@
+{
+  "kind": "collectionType",
+  "collectionName": "championnats",
+  "info": {
+    "singularName": "championnat",
+    "pluralName": "championnats",
+    "displayName": "Championnat",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "debut": {
+      "type": "date",
+      "required": true
+    },
+    "fin": {
+      "type": "date",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "SalleAdultes",
+        "SalleJeunes",
+        "TAE",
+        "Tir3D",
+        "Campagne",
+        "Nature",
+        "Beursault"
+      ],
+      "required": true
+    },
+    "informations": {
+      "type": "richtext"
+    },
+    "quotas": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sportif.quota"
+    },
+    "saison": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::saison.saison"
+    },
+    "Fichiers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "commun.fichier"
+    },
+    "Liens": {
+      "type": "component",
+      "repeatable": true,
+      "component": "commun.lien"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "collectionName": "components_commun_fichiers",
+  "info": {
+    "displayName": "Fichier",
+    "icon": "file-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Nom": {
+      "type": "string",
+      "required": true
+    },
+    "Type": {
+      "type": "enumeration",
+      "enum": [
+        "PDF",
+        "Word",
+        "Excel",
+        "Image",
+        "ZIP"
+      ],
+      "required": true
+    },
+    "Fichier": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "Important": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "Modification": {
+      "type": "date",
+      "required": true
+    },
+    "Expiration": {
+      "type": "datetime"
+    }
+  }
+}

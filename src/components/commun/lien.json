@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_commun_liens",
+  "info": {
+    "displayName": "Lien",
+    "icon": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Nom": {
+      "type": "string",
+      "required": true
+    },
+    "URL": {
+      "type": "string",
+      "required": true
+    },
+    "Important": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "Modification": {
+      "type": "date",
+      "required": true
+    },
+    "Expiration": {
+      "type": "datetime"
+    }
+  }
+}

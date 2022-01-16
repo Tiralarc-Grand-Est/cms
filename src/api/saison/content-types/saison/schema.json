@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "saisons",
+  "info": {
+    "singularName": "saison",
+    "pluralName": "saisons",
+    "displayName": "Saison",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "annee": {
+      "type": "integer",
+      "required": true,
+      "unique": true,
+      "max": 2050,
+      "min": 2000
+    },
+    "debut": {
+      "type": "date",
+      "required": true
+    },
+    "fin": {
+      "type": "date",
+      "required": true
+    }
+  }
+}
