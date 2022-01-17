@@ -46,17 +46,17 @@
       "relation": "oneToOne",
       "target": "api::saison.saison"
     },
-    "Fichiers": {
+    "fichiers": {
       "type": "component",
       "repeatable": true,
       "component": "commun.fichier"
     },
-    "Liens": {
+    "liens": {
       "type": "component",
       "repeatable": true,
       "component": "commun.lien"
     },
-    "Lieu": {
+    "lieu": {
       "type": "string",
       "required": false
     }

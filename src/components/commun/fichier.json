@@ -7,11 +7,11 @@
   },
   "options": {},
   "attributes": {
-    "Nom": {
+    "nom": {
       "type": "string",
       "required": true
     },
-    "Type": {
+    "type": {
       "type": "enumeration",
       "enum": [
         "PDF",
@@ -22,7 +22,7 @@
       ],
       "required": true
     },
-    "Fichier": {
+    "fichier": {
       "type": "media",
       "multiple": false,
       "required": true,
@@ -32,16 +32,16 @@
         "videos"
       ]
     },
-    "Important": {
+    "important": {
       "type": "boolean",
       "default": false,
       "required": true
     },
-    "Modification": {
+    "modification": {
       "type": "date",
       "required": true
     },
-    "Expiration": {
+    "expiration": {
       "type": "datetime"
     }
   }

@@ -7,24 +7,24 @@
   },
   "options": {},
   "attributes": {
-    "Nom": {
+    "nom": {
       "type": "string",
       "required": true
     },
-    "URL": {
+    "url": {
       "type": "string",
       "required": true
     },
-    "Important": {
+    "important": {
       "type": "boolean",
       "default": false,
       "required": true
     },
-    "Modification": {
+    "modification": {
       "type": "date",
       "required": true
     },
-    "Expiration": {
+    "expiration": {
       "type": "datetime"
     }
   }
