@@ -1736,6 +1736,33 @@
     styled-components "^5.2.3"
     whatwg-fetch "^3.6.2"
 
+"@strapi/helper-plugin@4.0.8":
+  version "4.0.8"
+  resolved "https://registry.yarnpkg.com/@strapi/helper-plugin/-/helper-plugin-4.0.8.tgz#02ac37d065c47142ab3b70ea0f4552812e649d33"
+  integrity sha512-G6DR1iAcZj5gc0UtC4h/TfI4v73/3m2MJpgRjzeIAtUww1kS4lQ55MlwH+//LiB6rro9rEqL5O3XcqJTBTgoFg==
+  dependencies:
+    "@fortawesome/fontawesome-free" "^5.15.2"
+    "@fortawesome/fontawesome-svg-core" "^1.2.35"
+    "@fortawesome/free-brands-svg-icons" "^5.15.2"
+    "@fortawesome/free-solid-svg-icons" "^5.15.3"
+    "@fortawesome/react-fontawesome" "^0.1.14"
+    axios "0.25.0"
+    babel-plugin-styled-components "2.0.2"
+    formik "2.2.9"
+    invariant "^2.2.1"
+    lodash "4.17.21"
+    match-sorter "^4.0.2"
+    mini-css-extract-plugin "2.4.4"
+    moment "^2.29.1"
+    react "^17.0.2"
+    react-dom "^17.0.2"
+    react-helmet "^6.1.0"
+    react-intl "5.20.2"
+    react-router "^5.2.0"
+    react-router-dom "5.2.0"
+    styled-components "^5.2.3"
+    whatwg-fetch "^3.6.2"
+
 "@strapi/icons@0.0.1-alpha.72":
   version "0.0.1-alpha.72"
   resolved "https://registry.yarnpkg.com/@strapi/icons/-/icons-0.0.1-alpha.72.tgz#7db766a60dbbe60cf12ae881605eb99168cda898"
@@ -1820,14 +1847,14 @@
     react-router-dom "5.2.0"
     sharp "0.29.3"
 
-"@strapi/plugin-users-permissions@4.0.6":
-  version "4.0.6"
-  resolved "https://registry.yarnpkg.com/@strapi/plugin-users-permissions/-/plugin-users-permissions-4.0.6.tgz#a682759d8d1616dd9d30fcdcb8af30d860f29cea"
-  integrity sha512-/ErsmqKBXw0Yt1UDGmJb7EYvNoj3hfAyQD5BMXBwdK7xqRV6Eb91JYfDwCwfdX2D/sJFybNtzZIJmIDF4hw4dA==
+"@strapi/plugin-users-permissions@4.0.8":
+  version "4.0.8"
+  resolved "https://registry.yarnpkg.com/@strapi/plugin-users-permissions/-/plugin-users-permissions-4.0.8.tgz#53f6e74bd5f659fd079801c63b309ba49cfbc6e2"
+  integrity sha512-VwxY949rkWcavBImVYU17s7l6nKnuafR0KGj0ExbJT8xNfWqNuwQxXqW0Krugy5BE3WUk3qH9kinq4RrVCZNDg==
   dependencies:
     "@purest/providers" "^1.0.2"
-    "@strapi/helper-plugin" "4.0.6"
-    "@strapi/utils" "4.0.6"
+    "@strapi/helper-plugin" "4.0.8"
+    "@strapi/utils" "4.0.8"
     bcryptjs "2.4.3"
     grant-koa "5.4.8"
     jsonwebtoken "^8.1.0"
@@ -1928,6 +1955,17 @@
   version "4.0.6"
   resolved "https://registry.yarnpkg.com/@strapi/utils/-/utils-4.0.6.tgz#768ee569dcb4f397fb7769f9ba11395f80970eb4"
   integrity sha512-8DlZ7tAm9LC5nFi5mAajhLh8OCodE2nKXkIMgom6Nr4GC423anVoOEmYpv+cUkdfO8hohrnnIG+RzJMgDBfGCg==
+  dependencies:
+    "@sindresorhus/slugify" "1.1.0"
+    date-fns "2.24.0"
+    http-errors "1.8.0"
+    lodash "4.17.21"
+    yup "0.32.9"
+
+"@strapi/utils@4.0.8":
+  version "4.0.8"
+  resolved "https://registry.yarnpkg.com/@strapi/utils/-/utils-4.0.8.tgz#2e2ee83b2871f49607d5800c02d8dcb7bcd7839e"
+  integrity sha512-9E/C9Qm+l4yhizQrU9Q2MZmL+0RZS1fYibZx61Qh//yQgV32LSsOXqFZSYdVUfktI1J2U1g5Wfqpvf37Z28FBA==
   dependencies:
     "@sindresorhus/slugify" "1.1.0"
     date-fns "2.24.0"
