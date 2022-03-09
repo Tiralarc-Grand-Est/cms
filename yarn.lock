@@ -1846,10 +1846,10 @@
     url-join "4.0.1"
     uuid "^3.1.0"
 
-"@strapi/provider-email-nodemailer@^4.1.2":
-  version "4.1.2"
-  resolved "https://registry.npmjs.org/@strapi/provider-email-nodemailer/-/provider-email-nodemailer-4.1.2.tgz"
-  integrity sha512-ZiK6F9Eb11UdRzkqgL2WFv0UZZuQ/RuZWKCXQiOxnie3phWVvSCUuKWMYNMNLBtyk8F2ESwHZXqXJniOQ0g+WQ==
+"@strapi/provider-email-nodemailer@^4.1.3":
+  version "4.1.3"
+  resolved "https://registry.yarnpkg.com/@strapi/provider-email-nodemailer/-/provider-email-nodemailer-4.1.3.tgz#fda93ecd5f3d6ac1f53a7d21b718e61c2c01a2b4"
+  integrity sha512-zUipXxw+Ok8l7CkxaWmgd4gSMRbuUSmCqIj5wL6yQGMNwHWGYhQM9kYxun1pVlRM8Hm5YtxQAS5kFm9H1O+GUw==
   dependencies:
     lodash "4.17.21"
     nodemailer "6.5.0"
