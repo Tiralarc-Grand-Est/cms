@@ -13,7 +13,7 @@
     "@strapi/plugin-i18n": "4.1.2",
     "@strapi/plugin-users-permissions": "4.1.2",
     "@strapi/provider-email-nodemailer": "^4.1.2",
-    "@strapi/strapi": "4.1.2",
+    "@strapi/strapi": "4.1.5",
     "pg": "^8.7.3"
   },
   "author": {
